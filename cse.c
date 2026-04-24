@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main() {
     int n;
-    int sum =0;
-    printf("enter the limit : ");
+    printf("enter the numb: ");
     scanf("%d", &n);
-    for(int i=1;i<=n;i++) {
-     sum+=i;
+    if (n%5==0) {
+    printf("numb is divisible by 5");
+    }else {
+        printf("not divisible");
     }
-    printf("sum = %d" ,sum);
-   
        return 0;
 }
