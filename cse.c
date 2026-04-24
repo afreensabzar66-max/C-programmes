@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main() {
     int n;
-    printf("enter ur limit : ");
+    int fact=1;
+    printf("enter the number : ");
     scanf("%d", &n);
-    for(int i=0;i<=n;i++) {
- printf(" %d ",i);
+    for(int i=1;i<=n;i++) {
+      fact*=i;
     }
+    printf("factorial = %d" , fact);
    
     return 0;
 }
