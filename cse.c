@@ -1,13 +1,12 @@
 #include <stdio.h>
 int main() {
     int n;
-    int fact=1;
     printf("enter the number : ");
     scanf("%d", &n);
-    for(int i=1;i<=n;i++) {
-      fact*=i;
-    }
-    printf("factorial = %d" , fact);
-   
-    return 0;
+     if(n>0){
+    printf("numb is positive");
+     }else{
+        printf("numb is negative");
+     }
+       return 0;
 }
