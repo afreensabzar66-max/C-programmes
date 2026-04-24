@@ -1,11 +1,13 @@
 #include <stdio.h>
 int main() {
-    int a ,b;
-
-    printf("enter ist numb : ");
-    scanf("%d" , &a);
-    printf("enter second numb :");
-    scanf("%d" , &b);
-    printf("sum = %d" , a+b);
+    int n;
+    int sum =0;
+    printf("enter the limit : ");
+    scanf("%d", &n);
+    for(int i=1;i<=n;i++) {
+     sum+=i;
+    }
+    printf("sum = %d" ,sum);
+   
        return 0;
 }
