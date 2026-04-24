@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
    int n,i;
-   
+  
    printf("enter ur limit : ");
    scanf("%d", &n);
 
