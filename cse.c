@@ -1,12 +1,14 @@
 #include <stdio.h>
 int main() {
-    int n;
-    printf("enter the number : ");
-    scanf("%d", &n);
-     if(n>0){
-    printf("numb is positive");
+    int a ,b;
+    printf("enter ist numb : ");
+    scanf("%d" , &a);
+    printf("enter second numb :");
+    scanf("%d" , &b);
+     if(a>b){
+    printf("a is largest");
      }else{
-        printf("numb is negative");
+        printf("b is largest");
      }
        return 0;
 }
