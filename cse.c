@@ -1,13 +1,15 @@
 #include <stdio.h>
 int main() {
-   int n,i;
+   int a , b, i;
  
    printf("enter ur number : ");
-   scanf("%d", &n);
+   scanf("%d", &a);
+   printf("enter ur limit : ");
+   scanf("%d", &b);
 
-   for(int i=1;i<=n;i++) {
-     if(n%i==0)
-  printf(" %d ", i);
+   for(int i=1;i<=b;i++) {
+    int table =a*i;
+  printf(" %d ",table);
        
    } 
 
