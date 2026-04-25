@@ -1,14 +1,15 @@
 #include <stdio.h>
 int main() {
    int n,i;
-  
+   int exp=1;
    printf("enter ur limit : ");
    scanf("%d", &n);
 
    for(int i=1;i<=n;i++) {
-    if(i%2==0) {  
-       printf( "%d " , i);
+ exp=exp*exp;;
+  printf("exp : %d \n" , exp);
+       
    } 
-}
+
 return 0;
 }
