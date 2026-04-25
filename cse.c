@@ -1,17 +1,15 @@
 #include <stdio.h>
 int main() {
-   int a , b, i;
- 
-   printf("enter ur number : ");
-   scanf("%d", &a);
-   printf("enter ur limit : ");
-   scanf("%d", &b);
-
-   for(int i=1;i<=b;i++) {
-    int table =a*i;
-  printf(" %d ",table);
-       
-   } 
-
+int n;
+printf("enter size of array:");
+scanf("%d" , &n);
+int arr[n];
+printf("enter elements of array:");
+for (int i=0;i<n;i++){
+scanf("%d" , &arr[i]);
+}
+   for(int i=0;i<n;i++) {
+    printf(" %d ",arr[i]);
+   }
 return 0;
 }
